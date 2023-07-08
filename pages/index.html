@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bem Estar Fitness</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href="../css/styless.css" rel="stylesheet">
+</head>
+
+<body>
+  
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Bem Estar Fitness</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Saúde</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quem Somos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Download
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Android</a></li>
+              <li><a class="dropdown-item" href="#">Iphone</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Windows</a></li>
+              <li><a class="dropdown-item" href="#">Mac</a></li>
+              <li><a class="dropdown-item" href="#">Linux</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container">
+
+    <div class="box1">
+      <h2>Faça seu cadastro</h2>
+      <p>Crie sua conta conosco e venha transformar o seu corpo, fortalecer sua mente e alcançar o melhor de si, com a nossa plataforma de saúde física!</p>
+      <img src="../imagens/pessoas-saudaveis.png" alt="Pessoas saudaveis segurando elementos" width= "80%">
+    </div>
+
+
+  
+    <div class="box2">
+      <h2>Preencha seus dados</h2>
+      <form id="dados" name="dados" method="post" action="" class="form">
+        <div class="box-form-item">
+          <label for="nome">Nome</label>
+          <i class="fa-regular fa-user icon"></i>
+          <input type="text" placeholder="Ex.: Fulano" id="nome" name="nome" required>
+        </div>
+
+        <div class="box-form-item">
+          <label for="sobreNome">Sobrenome</label>
+          <i class="fa-solid fa-user-tag icon"></i>
+          <input type="text" placeholder="Ex.: De Alves" id="sobreNome" name="sobreNome" required>
+        </div>
+
+        <div class="box-form-item">
+          <label for="usuario">Usuário</label>
+          <i class="fa-solid fa-user-secret icon"></i>
+          <input type="text" placeholder="Ex.: FulaAlves" id="usuario" name="usuario" required>
+        </div>
+
+        <div class="box-form-item">
+          <label for="senha">Senha</label>
+          <i class="fa-solid fa-key icon"></i>
+          <input type="password" placeholder="Ex.: @12345@" id="senha" name="senha" required>
+        </div>
+
+        <div class="box-form-item">
+          <label for="email">E-mail</label>
+          <i class="fa-regular fa-envelope icon"></i>
+          <input type="email" placeholder="Ex.: daalves@gmail.com" id="email" name="email" required>
+        </div>
+
+        <div class="box-form-item">
+          <label for="date">Data de Nascimento</label>
+          <i class="fa-solid fa-cake-candles icon"></i>
+          <input type="date" id="date" name="date" required>
+        </div>
+
+        <div class="box-form-radio">
+          <div class="checkbox">
+            <input type="checkbox" name="termo" id="termo" required>
+            <label for="termo">Li e aceito os <a href="#">termos de uso</a>!</label>
+          </div>
+
+        </div>
+        <div class="box-form-button">
+          <button type="submit">Criar conta</button>
+        </div>
+      </form>
+    </div>
+   
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #96ce8c;
+}
+
+.container {
+    height: 560px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.box1, .box2 {
+    width: 50%;
+    height: 90%;
+    margin-bottom: 20px;
+}
+
+.box1 h2 {
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+.box1 p {
+    width: 90%;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.box-form-item {
+    padding: 0 10px;
+    height: 90%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-form-item label {
+    font-size: 18px;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+select {
+    padding-left: 10px;
+}
+
+.icon {
+    position: relative;
+    top: 28px;
+    left: 11px;
+}
+
+.box-form-radio {
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.checkbox input {
+    height: 80%;
+    width: 70px;
+}
+
+.box-form-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.box-form-button button {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+@media (max-width: 300px;) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .box1 {
+        height: 50vh;
+        width: 95%;
+        margin: 350px auto 30px
+        font-size: 100px;
+    }
+
+    .box1 h2 {
+        font-size: 90px;
+    }
+
+    .box1 p {
+        font-size: 20px;
+    }
+    
+
+    .box2 {
+        height: 50px;
+        width: 95%;
+    }
+
+    .checkbox input {
+        height: 5px;
+    }
+
+.container {
+    background-color: #96ce8c;
+    height: 100%;
+    padding-top: 10px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    
+}
+
+
+.conta {
+    margin: 10px;
+}
